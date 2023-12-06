@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoneyCave</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <a href="index.html">
+                    <h1>HoneyCave</h1>
+                </a>
+            </div>
+            <nav>
+                <ul id="topMenu">
+                    <li><a href="#">회사 연혁<span>▼</span></a>
+                        <ul>
+                            <li><a href="#">연혁 및 조직도</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">개발 중인 게임<span>▼</span></a>
+                        <ul>
+                            <li><a href="#">project alpha</a></li>
+                            <li><a href="#">project beta</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">현재 서비스 중인 게임<span>▼</span></a>
+                        <ul>
+                            <li><a href="#">ILLI</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="slideshow">
+            <div id="slides">
+                <img src="photo-1.png" alt="">
+                <img src="photo-2.png" alt="">
+                <button id="prev">&lang;</button>
+                <button id="next">&lang;</button>
+            </div>
+        </div>
+        <div id="contents">
+            <div id="tabMenu">
+                <input type="radio" id="tab1" name="tabs" checked>
+                <label for="tab1">공지사항</label>
+                <input type = "radio" id="tab2" name="tabs">
+                <label for="tab2">갤러리</label>
+
+                <div id="notice" class="tabContent">
+                    <h2>x월 정기 업데이트 안내</h2>
+                    <ul>
+                        <li>금일 오전 11시부터 정기 업데이트가 진행될 예정입니다.</li>
+                        <li>업데이트가 시작되면 접속중인 유저분들은 자동으로 접속 종료가 되오니 이 점 유의바랍니다.</li>
+                        <li>업데이트 완료 시간 예상 : 오후 2시</li>
+                        <li>항상 저희 게임을 이용해주셔서 정말 감사합니다.</li>
+                    </ul>
+                </div>
+                <div id="gallary" class="tabContent">
+                    <h2>유저 분들의 게임 일상을 담을 수 있는 갤러리입니다.</h2>
+                    <ul>
+                        <li><img src="photo-3.png"></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="links">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span id ="quick-icon1"></span>
+                            <p>공식 유튜브</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span id="quick-icon2"></span>
+                            <p>이벤트</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span id = "quick-icon3"></span>
+                            <p>확률성 아이템 공시</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <fooster>
+            <div id="bottomMenu">
+                <ul>
+                    <li><a href="#">주소: https://www.knu.ac.kr/wbbs/wbbs/main/main.action</a></li>
+                </ul>
+            </div>
+        </fooster>    
+    </div>
+    <script src="js/slideshow.js"></script>
+</body>
+</html>
